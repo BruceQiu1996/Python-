@@ -1,0 +1,14 @@
+#数字的加减乘除
+print(3+2)
+print(3-2)
+print(3*2)
+#python的除法直接就是
+print(3/2)
+#次方运算
+print(3**4)#表示3的四次方
+#浮点运算
+print(2*0.1)
+print(0.1+0.1)
+print(0.2+0.1)
+#python无法进行数字和字符串的拼接
+print(32+"years")#error
