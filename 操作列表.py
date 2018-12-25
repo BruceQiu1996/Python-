@@ -26,3 +26,21 @@ print(players[0:3])
 print(players[:3])#不加开头就是从第一个元素开始
 print(players[0:])#不加结束的位置就是到最后结束
 print(players[-3:-1])#倒数第三个到倒数第二个
+#列表的复制
+foods=['ice cream','meat','apple']
+friend_food=foods
+foods.append("banbana")
+print(foods)
+print(friend_food)
+#上面的这中两个列表都指向一个地址，所以不算一种复制
+#复制1
+friend_food1=foods[:]
+#复制2
+friend_food2=foods.copy()
+foods.append("chololate")
+print(foods)
+print(friend_food2)
+print(friend_food1)
+#检查某个集合中是否有指定值
+print("pears" in foods)#false
+print("pears" not in foods)#True
